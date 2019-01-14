@@ -1,6 +1,6 @@
 FROM resin/intel-nuc-ubuntu:xenial
 
-RUN echo frontend-00 > fake-dependency
+RUN echo frontend-01 > fake-dependency
 RUN head -c 1G </dev/urandom > random-file
 
-CMD while true; do echo 'frontend-00 still alive' ; sleep 5 ; done
+CMD while true; do echo 'frontend-01 still alive' ; sleep 5 ; done
