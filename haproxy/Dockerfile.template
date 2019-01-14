@@ -1,6 +1,6 @@
 FROM resin/intel-nuc-ubuntu:xenial
 
-RUN echo haproxy-01 > fake-dependency
+RUN echo haproxy-02 > fake-dependency
 RUN head -c 1G </dev/urandom > random-file
 
-CMD while true; do echo 'haproxy-01 still alive' ; sleep 5 ; done
+CMD while true; do echo 'haproxy-02 still alive' ; sleep 5 ; done

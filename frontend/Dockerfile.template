@@ -1,5 +1,5 @@
 FROM resin/intel-nuc-ubuntu:xenial
 
-RUN echo frontend-01 > fake-dependency
+RUN echo frontend-02 > fake-dependency
 
-CMD while true; do echo 'frontend-01 still alive' ; sleep 5 ; done
+CMD while true; do echo 'frontend-02 still alive' ; sleep 5 ; done
