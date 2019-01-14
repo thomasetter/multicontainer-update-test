@@ -8,10 +8,5 @@ services:
     build: ./haproxy
     depends_on:
       - frontend
-      - data
     ports:
       - "80:80"
-  data:
-    build: ./data
-    expose:
-      - "8080"
